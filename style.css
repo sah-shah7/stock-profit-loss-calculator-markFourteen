@@ -1,14 +1,56 @@
+:root {
+  --main-color: #011756;
+}
+
 body {
     text-align: center;
-    background-color: white;
+    background-color:white;
+  }
+  h1{
+    font-style: var(--main-color);
   }
   
   .btn-primary {
-    border: 3px solid black;;
-    width: max-content;
+    margin-top: 1.5rem;
+    border: var(--main-color) solid 3px;
+    outline: none;
+    padding: 1rem 2rem;
     border-radius: 1rem;
-    padding: 0.5rem 1rem;
+    font-size: larger;
     cursor: pointer;
+    text-align: center;
+    position: relative;
+    width: fit-content;
+  }
+  #main {
+    position: center;
+  }
+  input {
+    border: var(--main-color) solid 3px;
+    padding: 1rem 1rem;
+    font-size: larger;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    color: black;
+    width: 20rem;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 10px;
+
+  }
+  #luckyNum {
+    padding: 1rem 1rem;
+    font-size: larger;
+    margin-top: 2rem;
+    border: var(--main-color) solid 3px;
+    text-align: center;
+    display: block;
+    border-radius: 1rem;
+    font-weight: bold;
+    color: black;
+    width: 20rem;
+    text-align: center;
   }
   
   label {
@@ -16,9 +58,4 @@ body {
     max-width: 600px;
     margin-top: 0;
     }
-  
-  input {
-    margin-top: 1rem;
-    padding: 5px;
-  }
 
